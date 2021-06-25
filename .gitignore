@@ -1,0 +1,5 @@
+/venv/
+*.keys
+*.p12
+*.pem
+.idea

@@ -1,0 +1,3 @@
+mz.0a45ecba2f6194d3646587dee5ffa757.url=https://127.0.0.1:9000
+mz.0a45ecba2f6194d3646587dee5ffa757.name=local
+mz.0a45ecba2f6194d3646587dee5ffa757.overrides.pico.rcp.platform.port=6790
