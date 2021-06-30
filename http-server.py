@@ -9,12 +9,11 @@ class LauncherService(BaseHTTPRequestHandler):
 
     def do_GET(self):
         try:
-            f = open(sys.argv[1], 'rb')
-            self.send_response(200)
-            self.send_header('Content-type', 'text/plain')
-            self.end_headers()
-            self.wfile.write(f.read())
-            f.close()
+            with open(sys.argv[1], 'rb') as f:
+                self.send_response(200)
+                self.send_header('Content-type', 'text/plain')
+                self.end_headers()
+                self.wfile.write(f.read())
             return
         except IOError:
             self.send_error(404, 'file not found')
