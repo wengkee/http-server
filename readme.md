@@ -1,6 +1,5 @@
 #  HTTP Server
-Simple HTTP server written in Python 3 which will read a file from and serve it to the page.
-
+A simple HTTP server that will read a file and serve it as plain text format.
 
 ## Prequisite
 * Install Python 3 
