@@ -10,6 +10,7 @@ def parsing_args():
                         help="the port of the server")
     parser.add_argument("-a, --address", type=str, default="127.0.0.1", dest="address",
                         help="the address of the server")
+    # TODO - to merge HTTP & HTTPS, adding --secure, --key-file, --cert-file
     return parser.parse_args()
 
 
